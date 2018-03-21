@@ -1,0 +1,14 @@
+{
+  "name": "pnp4nagios",
+  "version": "0.1.0",
+  "author": "apaetznoris",
+  "summary": "manage pnp4nagios installation",
+  "license": "MIT",
+  "source": "https://github.com/apaetznoris/pnp4nagios.git",
+  "project_page": "https://github.com/apaetznoris/pnp4nagios",
+  "issues_url": "https://github.com/apaetznoris/pnp4nagios/issues",
+  "description": "manage pnp4nagios installation",
+  "dependencies": [
+      {"name":"puppetlabs/stdlib","version_requirement":">= 4.6.0 < 6.0.0"}
+  ]
+}
