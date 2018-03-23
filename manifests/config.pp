@@ -10,7 +10,7 @@ class pnp4nagios::config (
 
   file { $perfdata_config:
     ensure  => 'present',
-    path    => "${config_path}/${perfdata_config}",
+    path    => "${config_path}/",
     content => template("pnp4nagios/${perfdata_template}"),
   }
 }
